@@ -1,7 +1,3 @@
-<script>
-  fbq('track', 'ViewContent');
-</script>
-
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/bkthayillam/signals23/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
@@ -41,23 +37,5 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
-
-<!-- Facebook Pixel Code -->
-<script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '1849861021848680');
-  fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-  src="https://www.facebook.com/tr?id=1849861021848680&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Facebook Pixel Code -->
 
 <meta name="facebook-domain-verification" content="prshqr51ynae0z9f8ucyo2t0h1wtfq" />
