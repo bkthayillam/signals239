@@ -1,30 +1,27 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
-<head>
+
+    {% if site.google_analytics %}
+      <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', '{{ site.google_analytics }}');
+      </script>
+    {% endif %}
     <meta charset="UTF-8">
 
-<!-- Begin Jekyll SEO tag v2.7.1 -->
-<title>signals23 | Test repo w/ custom header </title>
-<meta name="generator" content="Jekyll v3.9.0">
-<meta property="og:title" content="signals23">
-<meta property="og:locale" content="en_US">
-<meta name="description" content="Test repo">
-<meta property="og:description" content="Test repo">
-<link rel="canonical" href="http://signals23.xyz/">
-<meta property="og:url" content="http://signals23.xyz/">
-<meta property="og:site_name" content="signals23">
-<meta name="twitter:card" content="summary">
-<meta property="twitter:title" content="signals23">
-<script src="https://connect.facebook.net/signals/config/1849861021848680?v=2.9.33&amp;r=stable" async=""></script><script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script><script type="application/ld+json">
-{"@type":"WebSite","headline":"signals23","url":"http://signals23.xyz/","description":"Test repo","name":"signals23","@context":"https://schema.org"}</script>
-<!-- End Jekyll SEO tag -->
-
+{% seo %}
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
-    <link rel="stylesheet" href="/assets/css/style.css?v=2aafae299097981795b18a921b8823e16705af48">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
   </head>
-    <body>
+  <body>
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
     <header class="page-header" role="banner">
