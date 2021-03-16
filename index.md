@@ -4,11 +4,11 @@ This website is set up to test sending Pixel Events to Facebook. The following a
 
 <button onclick="fbq('track', 'Subscribe');">Subscribe</button>
 
-<button onclick="fbq('track', 'Purchase', {currency: "USD", value: 10.00});">Purchase $10</button>
+<button onclick="fbq('track', 'Purchase', {currency: 'USD', value: 10.00});">Purchase $10</button>
 
-<button onclick="fbq('track', 'Purchase', {currency: "USD", value: 200.00});">Purchase $200</button>
+<button onclick="fbq('track', 'Purchase', {currency: 'USD', value: 200.00});">Purchase $200</button>
 
-<button onclick="fbq('track', 'Purchase', {currency: "USD", value: 600.00});">Purchase $600</button>
+<button onclick="fbq('track', 'Purchase', {currency: 'USD', value: 600.00});">Purchase $600</button>
 
 
 ### Jekyll Themes
